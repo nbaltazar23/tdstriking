@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: #6e8fc3ff;
+}
+
+header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: #6e8fc3ff
+}
+
+#logo {
+  margin: 10px;
+  max-height: 69px;
+}
+
+nav li {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+nav a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #ffd12b;
+}
+
+h2, h3, h4, h5 {
+  background-color: transparent;
+  padding: 10px;
+}
+
+main {
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#mission {
+  width: 90%;
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1200px;
+  background-image: url("https://images.unsplash.com/photo-1525680996651-0222228be6f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: space;
+  background-position: 50%;
+}
+
+.mission-statement {
+  width: 100%;
+  background-color: black;
+  opacity: .85;
+}
+
+#curriculum {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: .85;
+}
+
+.curriculum-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.curriculum-block {
+  width: 300px;
+  margin: 15px;
+}
+
+.curriculum-photo img{
+  width: 200px;
+  height: 250px;
+}
+
+#team {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: .85;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cd5177c3-b17e-44b6-8d0f-f0ec3809b232/de3wari-789d4cac-4d5a-4c83-af48-f52d01e7750f.png/v1/fill/w_1188,h_673/boxing_ring_lights_background_4_by_super_nick_2001_de3wari-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzI1IiwicGF0aCI6IlwvZlwvY2Q1MTc3YzMtYjE3ZS00NGI2LThkMGYtZjBlYzM4MDliMjMyXC9kZTN3YXJpLTc4OWQ0Y2FjLTRkNWEtNGM4My1hZjQ4LWY1MmQwMWU3NzUwZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.br7kw6nQxiEgUV0dTpXjFeAtvyKCunHBuDhcYdyeiz8');
+}
+
+.team-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.member-container {
+  width: 300px;
+  margin: 15px;
+  align-items: center;
+}
+
+.member-photo img {
+  width: 250px;
+  height: 200px;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, rgba(110,143,195,0), rgba(110,143,195,1));
+}
+
+.contact-us {
+  display: block;
+  margin-bottom: 15px;
+  color: white;
+}
